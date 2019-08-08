@@ -61,7 +61,7 @@ ax.plot_surface(xx, yy, z_J)
 
 plt.figure(2)
 
-lvls = np.logspace(-2, 3, 30) #等高线的密度
+lvls = np.logspace(-2, 3, 30) 
 plt.contour(xx, yy, z_J, levels=lvls, norm=LogNorm())#plot contour
 plt.plot(theta[0], theta[1], c='r', marker="x")
 print(theta)
